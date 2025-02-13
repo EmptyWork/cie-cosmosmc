@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Item Encyclopedia (CEI) | #🌾Community Project</title>
+    <script src="js/utils.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="top">
+                <div class="top-left">
+                    <img src="./favicon.png" alt="CIE" srcset="">
+                    <span>Custom Item<br /> Encyclopedia</span>
+                </div>
+                <!-- <div class="input-background top-center">
+                    <input type="text" id="text-search" placeholder="Item Name" autocomplete="off" autofocus>
+                </div> -->
+                <ul class="top-right">
+                    <li>
+                        Menu
+                    </li>
+                    <li>
+                        Credits
+                    </li>
+                </ul>
+            </div>
+            <div class="input-background bottom">
+                <input type="text" id="text-search" placeholder="Item Name" autocomplete="off" autofocus>
+            </div>
+        </nav>
+        <div class="advance-selection">
+            <select name="category" id="category-selector">
+                <option value="null">No Category</option>
+            </select>
+            <select name="crate" id="crate-selector">
+                <option value="null">No Crate</option>
+            </select>
+        </div>
+    </header>
+    <div class="output-area" id="output-area">
+        <div id="first-area" class="output-container"> </div>
+        <div id="second-area" class="output-container"> </div>
+        <div id="third-area" class="output-container"> </div>
+    </div>
+    <div id="styled-text"></div>
+</body>
+<script src="js/script.js"></script>
+<script>
+    itemFinder({
+        input: "text-search",
+        output: "output-area",
+        categorySelector: "category-selector",
+        crateSelector: "crate-selector"
+    })
+</script>
+
+</html>

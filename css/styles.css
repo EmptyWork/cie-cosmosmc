@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("../assets/fonts/Minecraft.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-brand: rgb(13, 30, 38);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Minecraft", Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+select {
+  font-size: 1rem;
+}
+
+body {
+  background-color: hsl(from var(--color-brand) h s calc(l + 20));
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.input-background {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: grid;
+  background-color: var(--color-brand);
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+    .top-right {
+      display: flex;
+      gap: 2em;
+      color: white;
+
+      ul {
+        margin-left: 2em;
+        li {
+          list-style: none;
+        }
+      }
+    }
+
+    .top-left {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5em;
+
+      img {
+        width: 2em;
+      }
+
+      span {
+        color: white;
+        font-size: 1rem;
+        line-height: 1;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    background-color: var(--color-brand);
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    background-color: hsl(from var(--color-brand) h s calc(l - 10));
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    text-align: center;
+    color: hsl(from var(--color-brand) h s calc(l + 90));
+    z-index: 99;
+  }
+
+  input::placeholder {
+    text-align: center;
+    color: #d3d3d3;
+  }
+}
+
+.advance-selection {
+  background-color: hsl(from var(--color-brand) h s calc(l + 10));
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: auto;
+
+  select {
+    background-color: hsl(from var(--color-brand) h s calc(l - 10));
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    text-align: center;
+    color: hsl(from var(--color-brand) h s calc(l + 90));
+  }
+}
+
+.output-area {
+  padding: 2rem;
+  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1em;
+
+  .output-container {
+    flex: 0 1 auto;
+    height: fit-content;
+    width: min(35ch, 100%);
+    display: grid;
+    gap: 1em;
+  }
+}
+
+.item-card {
+  padding: 1em;
+  border-radius: 0.4em;
+  position: relative;
+  height: fit-content;
+  background-color: hsla(300, 71%, 4%, 0.904);
+  color: white;
+  width: min(35ch, 100%);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  border: 0.375rem solid #190230;
+
+  .item-name {
+    font-weight: 900;
+    line-height: 1.2;
+  }
+
+  .no-pvp {
+    position: absolute;
+    right: 0.5em;
+    height: 2em;
+    aspect-ratio: 1/1;
+    top: 0.5em;
+    cursor: pointer;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .no-pvp:has(:hover)::before,
+  .no-pvp:hover::before {
+    opacity: 1;
+  }
+
+  .no-pvp::before {
+    position: absolute;
+    top: calc(100% + 0.2em);
+    right: 0;
+    line-height: 1;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    padding: 0.2em;
+    border-radius: 0.1em;
+    width: max-content;
+    background-color: black;
+    content: attr(data-tooltip);
+    user-select: none;
+  }
+
+  .enchants-area {
+    line-height: 1.2;
+    padding-block: 0.4em;
+    color: #a8a8a8;
+  }
+
+  .lores-area {
+    line-height: 1.2;
+  }
+
+  .lores-area:not(.no-divider)::before,
+  .lores-area:not(.no-divider)::after {
+    text-decoration: line-through;
+    content: "----------------";
+    color: #a8a8a8;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  user-select: none;
+}
+
+.no-data {
+  text-align: center;
+  color: white;
+}
+
+#second-area.override {
+  flex: 1 0 auto;
+  width: 100%;
+}

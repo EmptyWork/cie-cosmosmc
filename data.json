@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "name": "Nightmare Staff",
+      "nameStyles": "&8[&#fc1900&lN&#dc1600&lI&#bd1300&lG&#9d0f00&lH&#7d0c00&lT&#9d0f00&lM&#bd1300&lA&#dc1600&lR&#fc1900&lE &#fc1900&lS&#dc1600&lT&#bd1300&lA&#9d0f00&lF&#7d0c00&lF&8]",
+      "category": "misc",
+      "enchants": {
+        "unbreakable": true
+      },
+      "lores": [
+        "&#fcfc54⭐&fEquip in offhand for &4Speed IV&f, &4Jump III&f, &4Invisibility",
+        "&#fcfc54⭐&fBoosted chance of winning &4Nightmare keys &ffrom voting when offhanded."
+      ],
+      "part": "Nightmare Crate",
+      "release": { "month": "October", "year": 2024 },
+      "nopvp": true,
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Nightmare Sword",
+      "nameStyles": "&8[&#fc1900&lN&#dc1600&lI&#bd1300&lG&#9d0f00&lH&#7d0c00&lT&#9d0f00&lM&#bd1300&lA&#dc1600&lR&#fc1900&lE &#fc1900&lS&#dc1600&lW&#bd1300&lO&#9d0f00&lR&#7d0c00&lD&8]",
+      "enchants": {
+        "sharpness": 7,
+        "looting": 4,
+        "unbreakable": true,
+        "fireAspect": 4
+      },
+      "lores": [
+        "&#fcfc54⭐&fChance to find &4Breeze spawners &fwhen killing mobs or players. (1/200k)",
+        "&#fcfc54⭐&fChance to &4disable player sheilds &fupon hitting them.",
+        "&#fcfc54⭐&fChance to &4grant darkness/slowness &fon enemy hit.",
+        "&#fcfc54⭐&fRight click to &4receive positive potion &feffects.",
+        "&#fcfc54⭐&fPlayer eliminations are &4broadcasted &fto chat.",
+        "&#fcfc54⭐&fChange your swords knockback with &4/modify enchant&f."
+      ],
+      "category": "sword",
+      "part": "Nightmare Crate",
+      "release": { "month": "October", "year": 2024 },
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Nightmare Dagger",
+      "nameStyles": "&8[&#fc1900&lN&#dc1600&lI&#bd1300&lG&#9d0f00&lH&#7d0c00&lT&#9d0f00&lM&#bd1300&lA&#dc1600&lR&#fc1900&lE &#fc1900&lD&#dc1600&lA&#bd1300&lG&#9d0f00&lG&#7d0c00&lER&8]",
+      "enchants": {
+        "sharpness": 7,
+        "smite": 8,
+        "unbreakable": true
+      },
+      "lores": [
+        "&#fcfc54⭐&fGives &4+2 block reach &fin dungeon worlds.",
+        "&#fcfc54⭐&fFills &4Saturation to full &fwhen eat anything with dagger in your mainhand, doesn't work in PVP.",
+        "&#fcfc54⭐&fRight click players to &4morph them &finto a &4Black Cat"
+      ],
+      "nopvp": true,
+      "category": "dagger",
+      "part": "Nightmare Crate",
+      "release": { "month": "October", "year": 2024 },
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Soul Dagger",
+      "nameStyles": "&8[&#03a800&lS&#01e71e&lO&#adfca1&lU&#ffffff&lL &#ffffff&lDAG&#c0e9bf&lG&#01e71e&lE&#03a800&lR&8]",
+      "enchants": {
+        "sharpness": 5,
+        "unbreakable": true
+      },
+      "lores": [
+        "&#fcfc54⭐&a20% chance &fto &ateleport &fbehind enemy on crit.",
+        "",
+        "&#fcfc54⭐&fRight click to &athrow health potion &f(2m cooldown)"
+      ],
+      "category": "dagger",
+      "part": "Soul Crate",
+      "release": { "month": "September", "year": 2024 },
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Dagger O Fate",
+      "nameStyles": "&8[&4&lDAGGER O FATE&8]",
+      "category": "dagger",
+      "enchants": {
+        "sharpness": 5,
+        "looting": 4,
+        "unbreakable": true
+      },
+      "lores": [
+        "Attack grant Absorption I.",
+        "",
+        "&cShift Right click &fto dash and crit your enemies with AOE damage."
+      ],
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Soul Sword",
+      "nameStyles": "&8[&#03a800&lS&#01e71e&lO&#adfca1&lU&#ffffff&lL &#ffffff&lSWO&#c0e9bf&lR&#81d480&lD&8]",
+      "enchants": {
+        "sharpness": 7,
+        "looting": 4,
+        "unbreakable": true
+      },
+      "lores": [
+        "&#fcfc54⭐&fChance to gain &afurniture keys &ffrom mobs / players.",
+        "&#fcfc54⭐&fCrouch click to &aselect &fa &anegative potion effect!",
+        "&#fcfc54⭐&fYour next attack has a &a100% chance &fto give that effect to enemy.",
+        "&#fcfc54⭐&fChance to &aspawn cobwebs &fin your enemies feet!",
+        "&#fcfc54⭐&fChance to turn &aenemies into giants &ffor 4 seconds",
+        "&#fcfc54⭐&fCrouch click to give all players in 5x5 radius &aSlowness IV &f for 5 seconds, you get Slowness II, Slow Fall II, Strength II."
+      ],
+      "category": "sword",
+      "part": "Soul Crate",
+      "release": { "month": "September", "year": 2024 },
+      "base_item": "netherite_sword"
+    },
+    {
+      "name": "Soul Wings",
+      "nameStyles": "&8[&#03a800&lS&#01e71e&lO&#adfca1&lU&#ffffff&lL &#ffffff&lWIN&#c0e9bf&lG&#81d480&lS&8]",
+      "enchants": {
+        "protection": 3,
+        "unbreakable": true
+      },
+      "lores": [
+        "&#fcfc54⭐&fAn ultra rare offhand cosmetic!",
+        "Obtained from 2024 Soul Crate"
+      ],
+      "category": "misc",
+      "part": "Soul Crate",
+      "release": { "month": "September", "year": 2024 },
+      "base_item": "paper"
+    },
+    {
+      "name": "tag: halloween",
+      "nameStyles": "&8[💔&#fc1900&lH&#dc1600&lA&#bd1300&lL&#9d0f00&lL&#7d0c00&lO&#9d0f00&lW&#bd1300&lE&#dc1600&lE&#fc1900&lN💔&8]",
+      "lores": [
+        "&7Allows you to select &8[💔&#fc1900&lH&#dc1600&lA&#bd1300&lL&#9d0f00&lL&#7d0c00&lO&#9d0f00&lW&#bd1300&lE&#dc1600&lE&#fc1900&lN💔&8]&r &7chat tag from &a/tags",
+        "",
+        "&#fcfc54Unlocked from 2024 Nightmare Crate."
+      ],
+      "category": "tag",
+      "part": "Nightmare Crate",
+      "release": { "month": "October", "year": 2024 },
+      "base_item": "nether_star"
+    }
+  ]
+}
